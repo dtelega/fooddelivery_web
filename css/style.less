@@ -1,0 +1,370 @@
+/*=========  basic  =========*/
+@black: #1d1d1d;
+@white: #e1e1e1;
+
+
+a {
+	color: @white;
+	&:hover, &:active, &:focus {
+		text-decoration: none;
+		color: @white;
+	}
+}
+
+li, ul {
+	padding: 0;
+	margin: 0;
+}
+
+body, html {
+	height: 100%;
+}
+
+.center_block {
+		display: block;
+		margin: 0 auto;
+	}
+section {
+	padding: 50px 0;
+}
+/*=========  nav  =========*/
+
+nav#header {
+	background: @black;
+	padding: 5px 0;
+	color: @white;
+	img {
+		padding: 5px 0;
+	}
+	.horizontal-menu {
+		margin-left: 0;
+		padding: 5px 0;
+		li {
+			text-transform: uppercase;
+			display: inline-block;
+			a {
+				font-size: 20px;
+				padding: 5px 15px;
+				&:hover {
+					background: #dfb080;
+					border-radius: 3px;
+				}
+			}
+		}
+		ul.submenu {
+			margin-top: -5px;
+			margin-left: 150px;
+			background: #dfb080;
+			display: none;
+			padding: 0 0;
+			li {
+				display: list-item;
+				border-radius: 0;
+				a {
+					font-size: 16px;
+					color: @white;
+					border-radius: 0;
+					border-top: 1.5px dashed @white;
+					&:hover {
+						background: #d66e0a;
+					}
+				}
+			}
+		}
+		li.has-submenu:hover .submenu {
+			display: block;
+		}
+		li.has-submenu:hover a {
+			background: #dfb080;
+			border-radius: 3px;
+		}
+		.shopping-cart {
+			display: inline-block;
+		}
+		.cart-items-count {
+			display: inline-block;
+		}
+	}
+}
+
+/*========= Main screen   =========*/
+
+section#main {
+	padding: 0;
+	.header_item {		
+		padding: 25px 50px;
+		padding-top: 0;
+		border: 3px solid #dfb080;
+		border-radius: 5px;
+		margin-top: 10%;
+		h2 {
+			color: #dfb080;
+			margin: 40px 0 20px 0;
+		}
+		h1 {
+			color: #d66e0a;
+			margin: 15px 0;
+			font-size: 50px;
+		}
+		h3 {
+			color: @white;
+			margin: 20px 0;
+		}
+		background: rgba(0, 0, 0, 0.6);
+	}
+	.item-1 {
+		top: 0;
+		background: url(../img/header/food-1.jpg) no-repeat center center;
+		background-size: cover;
+		height: 650px;
+	}
+	.item-2 {
+		background: url(../img/header/food-2.jpg) no-repeat center center;
+		height: 650px;
+	}
+	.item-3 {
+		background: url(../img/header/food-3.jpg) no-repeat center center;
+		height: 650px;
+	}
+}
+
+/*========= europe kitchen   =========*/
+
+section#europe{
+	margin-bottom: 15px;
+	h2 {
+		color: #705e51;
+		margin: 20px 0;
+	}
+	a {
+		color: @white;
+	}
+	.row div.item {
+		border: 4px solid #e2b282;
+		border-radius: 8px;
+		width: 45%;
+		margin: 10px 10px;
+	}
+
+	h1 {
+		opacity: 0.7;
+		font-size: 45px;
+		padding: 50px 0;
+	}
+	a #pizza {
+		background: url(../img/categories/pizza-ratio-10x4.jpg) no-repeat center center;
+		background-size: cover;
+	}
+	a #sushi {
+		background: url(../img/categories/sushi-ratio-10x4.jpg) no-repeat center center;
+		background-size: cover;
+	}
+	a #desert {
+		background: url(../img/categories/desert-ratio-10x4.jpg) no-repeat center center;
+		background-size: cover;
+	}
+	a #pasta {
+		background: url(../img/categories/pasta-ratio-10x4.jpg) no-repeat center center;
+		background-size: cover;
+	}
+	a:hover {
+		h1 {
+			opacity: 1;
+		}
+			.img-overlay {
+					-moz-transition: all 0.2s 0.02s ease;
+					-o-transition: all 0.2s 0.02s ease;
+					-webkit-transition: all 0.2s 0.02s ease;
+    			background: rgba(0, 0, 0, 0.7);
+			}
+		
+
+	}
+
+}
+
+/*=========  cookies  =========*/
+
+section#cookies {
+	background: url(../img/cookies-2.jpg) no-repeat center center;
+	background-size: cover;
+	color: @white;
+	.text {
+		background: rgba(0, 0, 0, 0.7);
+		border: 3px solid #e2b282;
+		border-radius: 5px;
+		padding: 40px 50px;
+		h2 {
+			margin-bottom: 25px;
+			font-size: 35px;
+		}
+		p {
+			margin: 15px 0;
+			font-size: 18px;
+		}
+	}	
+}
+
+/*=========  menu  =========*/
+
+section#menu {
+	h2 {
+		color: #705e51;
+		padding: 20px 0;
+	}
+	.menu-item {
+		margin-bottom: 30px;
+		h3 {
+			margin-top: 5px;
+			margin-bottom: 15px;
+			color: #e2b2a1;
+			font-size: 35px;
+		}
+		p {
+			margin: 10px 0;
+			border-bottom: 1px solid #e2b282;
+			.name {
+				text-align: left;
+			}
+			.price {
+				color: #ffc73f;
+				text-align: right;
+				float: right;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+/*========= happy hours   =========*/
+
+section#happy {
+	background: url(../img/cook.jpg) no-repeat center center;
+	background-size: cover;
+	color: @white;
+	h3 {
+		color: #c26303;
+		font-size: 50px;
+		margin: 15px 0;
+	}
+	h2 {
+		margin: 20px 0;
+		font-size: 35px;
+	}
+	p {
+		margin: 30px 0;
+	}
+	a {
+		padding: 10px 20px;
+		color: @white;
+		background: #ff7f00;
+		border-radius: 3px;
+		font-size: 25px;
+		&:hover {
+			color: @black;
+				-moz-transition: all 0.2s 0.02s ease;
+				-o-transition: all 0.2s 0.02s ease;
+				-webkit-transition: all 0.2s 0.02s ease;
+			background: rgba(255, 255, 255, 0.5);
+		}
+	}
+}
+
+/*=========  coffee  =========*/
+
+section#coffee {
+	img {
+		margin-top: 50px;
+	}
+	h2 {
+		margin: 20px 0;
+		color: #705e56;
+	}
+	p {
+		margin: 15px 0;
+		font-size: 18px;
+	}
+}
+
+/*========= fresh   =========*/
+
+section#fresh {
+	background: url(../img/sweets-background.jpg) no-repeat center center;
+	background-size: cover;
+	color: @white;
+	.text {
+		background: rgba(0, 0, 0, 0.7);
+		border: 3px solid #e2b282;
+		border-radius: 5px;
+		padding: 40px 50px;
+		h2 {
+			margin-bottom: 25px;
+			font-size: 35px;
+		}
+		p {
+			margin: 15px 0;
+			font-size: 18px;
+		}
+	}	
+}
+
+/*=====footer======*/
+
+section#footer {
+	background: #313131;
+	color: @white;
+	p.phone strong {
+		color: #ff7f0c;
+		font-size: 28px;
+	}
+	p.phone {
+		font-size: 22px;
+		display: inline-block;
+		margin-right: 20px;
+	}
+	img {
+		width: 18px;
+		height: 18px;
+	}
+	.map {
+		margin: 15px 0;
+		iframe {
+			border: 2px solid #e2b282;
+			border-radius: 5px;
+		}
+	}
+	a.social {
+		margin-right: 5px;
+		background-color: #ff7f07;
+		opacity: 0.4;
+		border-radius: 50%;
+		&:hover {
+			-moz-transition: all 0.2s 0.02s ease;
+			-o-transition: all 0.2s 0.02s ease;
+			-webkit-transition: all 0.2s 0.02s ease;
+			opacity: 1;
+		}
+		padding: 7px;
+	}
+	h3 {
+		color: #e2ad6d;
+		font-size: 35px;
+	}
+		a {
+			color: #e2ad6d;
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	.more li {
+		display: inline-block;
+		padding: 5px 0;
+		margin-right: 15px;
+		a {
+			color: #e2ad6d;
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+}

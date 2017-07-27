@@ -1,0 +1,340 @@
+/*=========  basic  =========*/
+a {
+  color: #e1e1e1;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: #e1e1e1;
+}
+li,
+ul {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  height: 100%;
+}
+.center_block {
+  display: block;
+  margin: 0 auto;
+}
+section {
+  padding: 50px 0;
+}
+/*=========  nav  =========*/
+nav#header {
+  background: #1d1d1d;
+  padding: 5px 0;
+  color: #e1e1e1;
+}
+nav#header img {
+  padding: 5px 0;
+}
+nav#header .horizontal-menu {
+  margin-left: 0;
+  padding: 5px 0;
+}
+nav#header .horizontal-menu li {
+  text-transform: uppercase;
+  display: inline-block;
+}
+nav#header .horizontal-menu li a {
+  font-size: 20px;
+  padding: 5px 15px;
+}
+nav#header .horizontal-menu li a:hover {
+  background: #dfb080;
+  border-radius: 3px;
+}
+nav#header .horizontal-menu ul.submenu {
+  margin-top: -5px;
+  margin-left: 150px;
+  background: #dfb080;
+  display: none;
+  padding: 0 0;
+}
+nav#header .horizontal-menu ul.submenu li {
+  display: list-item;
+  border-radius: 0;
+}
+nav#header .horizontal-menu ul.submenu li a {
+  font-size: 16px;
+  color: #e1e1e1;
+  border-radius: 0;
+  border-top: 1.5px dashed #e1e1e1;
+}
+nav#header .horizontal-menu ul.submenu li a:hover {
+  background: #d66e0a;
+}
+nav#header .horizontal-menu li.has-submenu:hover .submenu {
+  display: block;
+}
+nav#header .horizontal-menu li.has-submenu:hover a {
+  background: #dfb080;
+  border-radius: 3px;
+}
+nav#header .horizontal-menu .shopping-cart {
+  display: inline-block;
+}
+nav#header .horizontal-menu .cart-items-count {
+  display: inline-block;
+}
+/*========= Main screen   =========*/
+section#main {
+  padding: 0;
+}
+section#main .header_item {
+  padding: 25px 50px;
+  padding-top: 0;
+  border: 3px solid #dfb080;
+  border-radius: 5px;
+  margin-top: 10%;
+  background: rgba(0, 0, 0, 0.6);
+}
+section#main .header_item h2 {
+  color: #dfb080;
+  margin: 40px 0 20px 0;
+}
+section#main .header_item h1 {
+  color: #d66e0a;
+  margin: 15px 0;
+  font-size: 50px;
+}
+section#main .header_item h3 {
+  color: #e1e1e1;
+  margin: 20px 0;
+}
+section#main .item-1 {
+  top: 0;
+  background: url(../img/header/food-1.jpg) no-repeat center center;
+  background-size: cover;
+  height: 650px;
+}
+section#main .item-2 {
+  background: url(../img/header/food-2.jpg) no-repeat center center;
+  height: 650px;
+}
+section#main .item-3 {
+  background: url(../img/header/food-3.jpg) no-repeat center center;
+  height: 650px;
+}
+/*========= europe kitchen   =========*/
+section#europe {
+  margin-bottom: 15px;
+}
+section#europe h2 {
+  color: #705e51;
+  margin: 20px 0;
+}
+section#europe a {
+  color: #e1e1e1;
+}
+section#europe .row div.item {
+  border: 4px solid #e2b282;
+  border-radius: 8px;
+  width: 45%;
+  margin: 10px 10px;
+}
+section#europe h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  padding: 50px 0;
+}
+section#europe a #pizza {
+  background: url(../img/categories/pizza-ratio-10x4.jpg) no-repeat center center;
+  background-size: cover;
+}
+section#europe a #sushi {
+  background: url(../img/categories/sushi-ratio-10x4.jpg) no-repeat center center;
+  background-size: cover;
+}
+section#europe a #desert {
+  background: url(../img/categories/desert-ratio-10x4.jpg) no-repeat center center;
+  background-size: cover;
+}
+section#europe a #pasta {
+  background: url(../img/categories/pasta-ratio-10x4.jpg) no-repeat center center;
+  background-size: cover;
+}
+section#europe a:hover h1 {
+  opacity: 1;
+}
+section#europe a:hover .img-overlay {
+  -moz-transition: all 0.2s 0.02s ease;
+  -o-transition: all 0.2s 0.02s ease;
+  -webkit-transition: all 0.2s 0.02s ease;
+  background: rgba(0, 0, 0, 0.7);
+}
+/*=========  cookies  =========*/
+section#cookies {
+  background: url(../img/cookies-2.jpg) no-repeat center center;
+  background-size: cover;
+  color: #e1e1e1;
+}
+section#cookies .text {
+  background: rgba(0, 0, 0, 0.7);
+  border: 3px solid #e2b282;
+  border-radius: 5px;
+  padding: 40px 50px;
+}
+section#cookies .text h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+section#cookies .text p {
+  margin: 15px 0;
+  font-size: 18px;
+}
+/*=========  menu  =========*/
+section#menu h2 {
+  color: #705e51;
+  padding: 20px 0;
+}
+section#menu .menu-item {
+  margin-bottom: 30px;
+}
+section#menu .menu-item h3 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: #e2b2a1;
+  font-size: 35px;
+}
+section#menu .menu-item p {
+  margin: 10px 0;
+  border-bottom: 1px solid #e2b282;
+}
+section#menu .menu-item p .name {
+  text-align: left;
+}
+section#menu .menu-item p .price {
+  color: #ffc73f;
+  text-align: right;
+  float: right;
+  font-weight: bold;
+}
+/*========= happy hours   =========*/
+section#happy {
+  background: url(../img/cook.jpg) no-repeat center center;
+  background-size: cover;
+  color: #e1e1e1;
+}
+section#happy h3 {
+  color: #c26303;
+  font-size: 50px;
+  margin: 15px 0;
+}
+section#happy h2 {
+  margin: 20px 0;
+  font-size: 35px;
+}
+section#happy p {
+  margin: 30px 0;
+}
+section#happy a {
+  padding: 10px 20px;
+  color: #e1e1e1;
+  background: #ff7f00;
+  border-radius: 3px;
+  font-size: 25px;
+}
+section#happy a:hover {
+  color: #1d1d1d;
+  -moz-transition: all 0.2s 0.02s ease;
+  -o-transition: all 0.2s 0.02s ease;
+  -webkit-transition: all 0.2s 0.02s ease;
+  background: rgba(255, 255, 255, 0.5);
+}
+/*=========  coffee  =========*/
+section#coffee img {
+  margin-top: 50px;
+}
+section#coffee h2 {
+  margin: 20px 0;
+  color: #705e56;
+}
+section#coffee p {
+  margin: 15px 0;
+  font-size: 18px;
+}
+/*========= fresh   =========*/
+section#fresh {
+  background: url(../img/sweets-background.jpg) no-repeat center center;
+  background-size: cover;
+  color: #e1e1e1;
+}
+section#fresh .text {
+  background: rgba(0, 0, 0, 0.7);
+  border: 3px solid #e2b282;
+  border-radius: 5px;
+  padding: 40px 50px;
+}
+section#fresh .text h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+section#fresh .text p {
+  margin: 15px 0;
+  font-size: 18px;
+}
+/*=====footer======*/
+section#footer {
+  background: #313131;
+  color: #e1e1e1;
+}
+section#footer p.phone strong {
+  color: #ff7f0c;
+  font-size: 28px;
+}
+section#footer p.phone {
+  font-size: 22px;
+  display: inline-block;
+  margin-right: 20px;
+}
+section#footer img {
+  width: 18px;
+  height: 18px;
+}
+section#footer .map {
+  margin: 15px 0;
+}
+section#footer .map iframe {
+  border: 2px solid #e2b282;
+  border-radius: 5px;
+}
+section#footer a.social {
+  margin-right: 5px;
+  background-color: #ff7f07;
+  opacity: 0.4;
+  border-radius: 50%;
+  padding: 7px;
+}
+section#footer a.social:hover {
+  -moz-transition: all 0.2s 0.02s ease;
+  -o-transition: all 0.2s 0.02s ease;
+  -webkit-transition: all 0.2s 0.02s ease;
+  opacity: 1;
+}
+section#footer h3 {
+  color: #e2ad6d;
+  font-size: 35px;
+}
+section#footer a {
+  color: #e2ad6d;
+}
+section#footer a:hover {
+  opacity: 0.7;
+}
+section#footer .more li {
+  display: inline-block;
+  padding: 5px 0;
+  margin-right: 15px;
+}
+section#footer .more li a {
+  color: #e2ad6d;
+}
+section#footer .more li a:hover {
+  opacity: 0.7;
+}
