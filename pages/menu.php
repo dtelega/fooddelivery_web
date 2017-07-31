@@ -1,6 +1,6 @@
 <section class="theway">
 	<div class="container padding">
-		<span><a href="/main/">Головна</a></span>
+		<span><a href="?view=main">Головна</a></span>
 		<span class="separator">></span>
 		<span>Меню</span>
 	</div>
@@ -87,7 +87,7 @@
 
 				<div class="col-md-3 col-md-offset-1 product-icon">
 					<div class="image">
-						<img src="img/menu/pizzas/pizza-menu-3.jpg" alt="Pizza">
+						<img src="img/menu/pizzas/pizza-menu-6.jpg" alt="Pizza">
 					</div>
 					<div class="product-name">
 						<p><a href="#">М'ясний бенкет</a></p>

@@ -72,12 +72,13 @@ nav#header .horizontal-menu li {
   display: inline-block;
 }
 nav#header .horizontal-menu li a {
+  color: #fff;
   font-size: 20px;
   padding: 5px 15px;
+  border-radius: 3px;
 }
 nav#header .horizontal-menu li a:hover {
   background: #dfb080;
-  border-radius: 3px;
 }
 nav#header .horizontal-menu ul.submenu {
   margin-top: -5px;
@@ -142,15 +143,15 @@ section#main .item-1 {
   top: 0;
   background: url(../img/header/food-1.jpg) no-repeat center center;
   background-size: cover;
-  height: 700px;
+  height: 100vh;
 }
 section#main .item-2 {
   background: url(../img/header/food-2.jpg) no-repeat center center;
-  height: 700px;
+  height: 100vh;
 }
 section#main .item-3 {
   background: url(../img/header/food-3.jpg) no-repeat center center;
-  height: 700px;
+  height: 100vh;
 }
 section#europe {
   margin-bottom: 15px;
@@ -380,12 +381,14 @@ section#every-five {
   background: url(../img/offer/cup-background.jpg) no-repeat center center;
   background-size: cover;
   color: #e1e1e1;
+  height: 100vh;
 }
 section#every-five .text {
   background: rgba(0, 0, 0, 0.7);
   border: 3px solid #e2b282;
   border-radius: 10px;
   padding: 40px 50px;
+  margin-top: 15vh;
 }
 section#every-five .text h2 {
   margin-bottom: 25px;
@@ -399,12 +402,14 @@ section#cookies-sell {
   background: url(../img/offer/cookies.jpg) no-repeat center center;
   background-size: cover;
   color: #e1e1e1;
+  height: 100vh;
 }
 section#cookies-sell .text {
   background: rgba(0, 0, 0, 0.7);
   border: 3px solid #e2b282;
   border-radius: 10px;
   padding: 40px 50px;
+  margin-top: 15vh;
 }
 section#cookies-sell .text h2 {
   margin-bottom: 25px;
@@ -418,8 +423,10 @@ section#mors-sell {
   background: url(../img/offer/sweets-background.jpg) no-repeat center center;
   background-size: cover;
   color: #e1e1e1;
+  height: 100vh;
 }
 section#mors-sell .text {
+  margin-top: 15vh;
   background: rgba(0, 0, 0, 0.7);
   border: 3px solid #e2b282;
   border-radius: 10px;
@@ -532,6 +539,9 @@ section#menu-page .product-icon:hover .image img {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
+}
+section#menu-page .product-icon:hover .image img:hover {
+  opacity: 0.7;
 }
 section#menu-page .image {
   overflow: hidden;
@@ -679,10 +689,10 @@ section#page-blog .news-item {
   margin: 15px 0;
 }
 section#page-blog h1 {
-  color: #e4baac;
+  color: #e2b4a3;
 }
 section#page-blog a {
-  color: #e4baac;
+  color: #e2b4a3;
   font-size: 22px;
   margin: 10px 0;
 }
@@ -695,7 +705,7 @@ section#page-blog p {
 section#page-blog img {
   max-height: 124px;
   max-width: 184px;
-  border: 3px solid #e4baac;
+  border: 3px solid #e2b4a3;
   border-radius: 5px;
 }
 section#page-blog .photo {

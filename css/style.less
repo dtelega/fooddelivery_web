@@ -75,12 +75,13 @@ nav#header {
 			text-transform: uppercase;
 			display: inline-block;
 			a {
+				color: #fff;
 				font-size: 20px;
 				padding: 5px 15px;
+				border-radius: 3px;
 				&:hover {
 
 					background: #dfb080;
-					border-radius: 3px;
 				}
 			}
 		}
@@ -150,15 +151,15 @@ section#main {
 		top: 0;
 		background: url(../img/header/food-1.jpg) no-repeat center center;
 		background-size: cover;
-		height: 700px;
+		height: 100vh;
 	}
 	.item-2 {
 		background: url(../img/header/food-2.jpg) no-repeat center center;
-		height: 700px;
+		height: 100vh;
 	}
 	.item-3 {
 		background: url(../img/header/food-3.jpg) no-repeat center center;
-		height: 700px;
+		height: 100vh;
 	}
 }
 
@@ -411,11 +412,13 @@ section#every-five {
 	background: url(../img/offer/cup-background.jpg) no-repeat center center;
 	background-size: cover;
 	color: @white;
+	height: 100vh;
 	.text {
 		background: rgba(0, 0, 0, 0.7);
 		border: 3px solid #e2b282;
 		border-radius: 10px;
 		padding: 40px 50px;
+		margin-top: 15vh;
 		h2 {
 			margin-bottom: 25px;
 			font-size: 35px;
@@ -431,11 +434,13 @@ section#cookies-sell {
 	background: url(../img/offer/cookies.jpg) no-repeat center center;
 	background-size: cover;
 	color: @white;
+	height: 100vh;
 	.text {
 		background: rgba(0, 0, 0, 0.7);
 		border: 3px solid #e2b282;
 		border-radius: 10px;
 		padding: 40px 50px;
+		margin-top: 15vh;
 		h2 {
 			margin-bottom: 25px;
 			font-size: 35px;
@@ -451,7 +456,9 @@ section#mors-sell {
 	background: url(../img/offer/sweets-background.jpg) no-repeat center center;
 	background-size: cover;
 	color: @white;
+	height: 100vh;
 	.text {
+		margin-top: 15vh;
 		background: rgba(0, 0, 0, 0.7);
 		border: 3px solid #e2b282;
 		border-radius: 10px;
@@ -566,6 +573,9 @@ section#menu-page {
  				-webkit-transform: scale(1.1);
  				-moz-transform: scale(1.1);
  				-o-transform: scale(1.1);
+ 				&:hover {
+ 					opacity: 0.7;
+ 				}
  			}
 		}
 	}
@@ -734,10 +744,10 @@ section#page-blog {
 	}
 
 	h1 {
-		color: #e4baac;
+		color: #e2b4a3;
 	}
 	a {
-		color: #e4baac;
+		color: #e2b4a3;
 		font-size: 22px;
 		margin: 10px 0;
 	}
@@ -750,7 +760,7 @@ section#page-blog {
 	img {
 		max-height: 124px;
 		max-width: 184px;
-		border: 3px solid #e4baac;
+		border: 3px solid #e2b4a3;
 		border-radius: 5px;
 	}
 	.photo {

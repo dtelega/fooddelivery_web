@@ -1,6 +1,6 @@
 <section class="theway">
 	<div class="container padding">
-		<span><a href="/main/">Головна</a></span>
+		<span><a href="?view=main">Головна</a></span>
 		<span class="separator">></span>
 		<span>Акції</span>
 	</div>
