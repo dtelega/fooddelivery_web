@@ -11,6 +11,7 @@ a:focus {
 }
 * {
   font-family: 'Zilla Slab', serif;
+  font-size: 16px;
 }
 li,
 ul {
@@ -147,10 +148,12 @@ section#main .item-1 {
 }
 section#main .item-2 {
   background: url(../img/header/food-2.jpg) no-repeat center center;
+  background-size: cover;
   height: 100vh;
 }
 section#main .item-3 {
   background: url(../img/header/food-3.jpg) no-repeat center center;
+  background-size: cover;
   height: 100vh;
 }
 section#europe {
@@ -203,12 +206,14 @@ section#cookies {
   background: url(../img/cookies-2.jpg) no-repeat center center;
   background-size: cover;
   color: #e1e1e1;
+  height: 100vh;
 }
 section#cookies .text {
   background: rgba(0, 0, 0, 0.7);
   border: 3px solid #e2b282;
   border-radius: 5px;
   padding: 40px 50px;
+  margin-top: 15vh;
 }
 section#cookies .text h2 {
   margin-bottom: 25px;
@@ -248,25 +253,29 @@ section#happy {
   background: url(../img/cook.jpg) no-repeat center center;
   background-size: cover;
   color: #e1e1e1;
+  height: 100vh;
 }
 section#happy h3 {
   color: #c26303;
-  font-size: 50px;
+  font-size: 75px;
   margin: 15px 0;
+  margin-bottom: 40px;
 }
 section#happy h2 {
-  margin: 20px 0;
-  font-size: 35px;
+  margin: 40px 0;
+  margin-bottom: 90px;
+  font-size: 55px;
 }
 section#happy p {
-  margin: 30px 0;
+  margin: 20px 0;
+  margin-bottom: 90px;
 }
 section#happy a {
   padding: 10px 20px;
   color: #e1e1e1;
   background: #ff7f00;
   border-radius: 3px;
-  font-size: 25px;
+  font-size: 35px;
 }
 section#happy a:hover {
   color: #1d1d1d;
