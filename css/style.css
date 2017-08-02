@@ -149,17 +149,17 @@ section#main .item-1 {
   top: 0;
   background: url(../img/header/food-1.jpg) no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 section#main .item-2 {
   background: url(../img/header/food-2.jpg) no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 section#main .item-3 {
   background: url(../img/header/food-3.jpg) no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 section#europe {
   margin-bottom: 15px;
@@ -211,7 +211,7 @@ section#cookies {
   background: url(../img/cookies-2.jpg) no-repeat center center;
   background-size: cover;
   color: #e1e1e1;
-  height: 100vh;
+  min-height: 100vh;
 }
 section#cookies .text {
   background: rgba(0, 0, 0, 0.7);
@@ -258,7 +258,7 @@ section#happy {
   background: url(../img/cook.jpg) no-repeat center center;
   background-size: cover;
   color: #e1e1e1;
-  height: 100vh;
+  min-height: 100vh;
 }
 section#happy h3 {
   color: #c26303;
@@ -395,7 +395,7 @@ section#every-five {
   background: url(../img/offer/cup-background.jpg) no-repeat center center;
   background-size: cover;
   color: #e1e1e1;
-  height: 100vh;
+  min-height: 100vh;
 }
 section#every-five .text {
   background: rgba(0, 0, 0, 0.7);
@@ -416,7 +416,7 @@ section#cookies-sell {
   background: url(../img/offer/cookies.jpg) no-repeat center center;
   background-size: cover;
   color: #e1e1e1;
-  height: 100vh;
+  min-height: 100vh;
 }
 section#cookies-sell .text {
   background: rgba(0, 0, 0, 0.7);
@@ -570,7 +570,7 @@ section#page-about-us {
   background: url(../img/about-us/about-main.jpg) no-repeat center center;
   background-size: cover;
   color: #fff;
-  height: 100vh;
+  min-height: 100vh;
 }
 section#page-about-us .text {
   margin-top: 20vh;
@@ -586,7 +586,7 @@ section#page-about-us .text p {
   font-size: 24px;
 }
 section#page-why-we {
-  height: 100vh;
+  min-height: 100vh;
 }
 section#page-why-we h3 {
   color: #e2b282;
@@ -659,7 +659,7 @@ section#page-our-team h3 {
   font-size: 32px;
 }
 section#page-food-art {
-  height: 100vh;
+  min-height: 100vh;
 }
 section#page-food-art h2 {
   padding: 20px 0;
@@ -678,7 +678,7 @@ section#page-food-art .text p {
   font-size: 18px;
 }
 section#page-feedback {
-  height: 100vh;
+  min-height: 100vh;
 }
 section#page-feedback h2 {
   padding: 20px 0;
