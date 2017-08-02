@@ -9,7 +9,7 @@
 <section id="page-blog">
 	<div class="container">
 		<div class="row">
-			<h1>Блог</h1>
+			<h1 class="wow fadeIn">Блог</h1>
 		</div>
 		<div class="row">
 			<div class="col-md-6 news-item">

@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7">
-				<div class="text">
+				<div class="text wow fadeInRight">
 					<h2>Зв'яжіться з нами!</h2>
 					<p>Тут ви можете розмістити детальну інформацію про ваші контакти, місце розташування.</p>
 					<h3>Адреса</h3>

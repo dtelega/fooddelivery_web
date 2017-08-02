@@ -10,17 +10,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-offset-3">
-				<h1>Меню</h1>
+				<h1 class="wow fadeIn">Меню</h1>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-3 menu-items">
-				<a href="#">Піца</a>
-				<a href="#">Суші та роли</a>
-				<a href="#">Десерти</a>
-				<a href="#">Паста</a>
+				<a href="#" class="wow fadeInUp">Піца</a>
+				<a href="#" class="wow fadeInUp" data-wow-delay="0.1s">Суші та роли</a>
+				<a href="#" class="wow fadeInUp" data-wow-delay="0.2s">Десерти</a>
+				<a href="#" class="wow fadeInUp" data-wow-delay="0.3s">Паста</a>
 			</div>
-			<div class="col-md-9 text-center" style="padding:0;">
+			<div class="col-md-9 text-center wow fadeIn" data-wow-delay="0.3s" style="padding:0;">
 				<div class="col-md-3 product-icon">
 					<div class="image">
 						<img src="img/menu/pizzas/pizza-menu-1.jpg" alt="Pizza">
@@ -58,7 +58,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row wow fadeIn" data-wow-delay="0.5s">
 			<div class="col-md-3"></div>
 			<div class="col-md-9 text-center" style="padding:0;">
 				<div class="col-md-3 product-icon">
@@ -98,7 +98,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row wow fadeIn" data-wow-delay="0.2s">
 			<div class="col-md-3"></div>
 			<div class="col-md-9 text-center" style="padding:0;">
 				<div class="col-md-3 product-icon">

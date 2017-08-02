@@ -1,6 +1,6 @@
 <section id="footer">
 		<div class="container">
-			<h3>Зворотній зв'язок</h3>
+			<h3 class="wow fadeInUp">Зворотній зв'язок</h3>
 			<p class="map">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.0225653423336!2d-1.262141902761599!3d51.75091093509969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6be768d09f66dc4a!2sOxford+Castle!5e0!3m2!1suk!2sua!4v1490784809529" width="100%" height="300" frameborder="0" allowfullcreen="allowfullcreen"></iframe>
 			</p>
