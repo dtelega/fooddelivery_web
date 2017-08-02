@@ -1,7 +1,7 @@
 <section id="footer">
 		<div class="container">
 			<h3 class="wow fadeInUp">Зворотній зв'язок</h3>
-			<p class="map">
+			<p class="map wow fadeIn" data-wow-delay="0.2s">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.0225653423336!2d-1.262141902761599!3d51.75091093509969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6be768d09f66dc4a!2sOxford+Castle!5e0!3m2!1suk!2sua!4v1490784809529" width="100%" height="300" frameborder="0" allowfullcreen="allowfullcreen"></iframe>
 			</p>
 			<div class="row">
@@ -19,13 +19,13 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-				<h3>Що це?</h3>
+				<h3 class="wow fadeIn">Що це?</h3>
 				<p>Це приклад шаблону готового інтернет-магазину, який ви можете придбати на сайті Site-Express.</p>
 				<p>Дій швидко — <a href="#">Site-Express</a></p>
 				</div>
 
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-				<h3>Корисні посилання</h3>
+				<h3 class="wow fadeIn">Корисні посилання</h3>
 				<p>Ви можете дізнатися, як створити свій сайт на основі шаблону, перейшовши по одному з посилань, розташованих нижче.</p>
 				<ul class="more">
 					<li><a href="#">Про проект</a></li>
