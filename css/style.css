@@ -757,3 +757,71 @@ section#cont-main .text p {
 section#cont-main .text h3 {
   color: #e2b282;
 }
+/*============ media ===============*/
+@media (min-width: 0px) and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  section#main .item-1,
+  section#main .item-2,
+  section#main .item-3 {
+    min-height: 0vh;
+  }
+  section#europe .row div.item {
+    margin-left: 5px;
+  }
+  section#cookies .text {
+    padding: 20px 30px;
+    margin-top: 5vh;
+  }
+  section#fresh .text {
+    padding: 20px 30px;
+  }
+  section#main .header_item {
+    margin-top: 50px;
+  }
+  section#every-five .text,
+  section#mors-sell .text,
+  section#cookies-sell .text {
+    margin-top: 5vh;
+    padding: 20px 25px;
+  }
+  section#menu-page h1 {
+    text-align: center;
+  }
+  section#menu-page .product-icon {
+    margin: 20px auto;
+    width: 60%;
+  }
+  section#page-about-us .text {
+    margin-top: 5vh;
+    padding: 20px 25px;
+  }
+  section#page-why-we h2 {
+    margin-top: 0;
+  }
+  section#page-why-we img {
+    margin-top: 10px;
+  }
+  section#page-out-meta .text {
+    margin-top: 5vh;
+    padding: 20px 25px;
+  }
+  section#page-feedback h2 {
+    margin-top: 0;
+  }
+  section#page-feedback p {
+    min-height: 0px;
+  }
+  section#page-blog h1 {
+    margin-left: 25px;
+  }
+  section#page-blog .photo {
+    float: none;
+    margin-left: 22%;
+  }
+  section#cont-main .text {
+    margin-top: 5vh;
+    padding: 20px 25px;
+  }
+}

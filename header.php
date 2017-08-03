@@ -36,14 +36,35 @@
   </head>
   <body>
 
-	<nav id="header">
+
+  <div class="visible-xs navbar navbar-inverse navbar-fixed-top">
+  	<div class="container">
+  		<a class="navbar-brand" href="?view=main">Food Delivery</a>
+  		<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+  			<span class="icon-bar"></span>
+  			<span class="icon-bar"></span>
+  			<span class="icon-bar"></span>
+  		</button>
+		<div class="collapse navbar-collapse navHeaderCollapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="?view=offer">Акції</a></li>
+				<li><a href="?view=menu">Меню</a></li>
+				<li><a href="?view=about-us">Про нас</a></li>
+				<li><a href="?view=blog">Блог</a></li>
+				<li><a href="?view=contacts">Контакти</a></li>
+			</ul>
+		</div>
+  	</div>
+  </div>
+
+	<nav id="header" class="navbar hidden-xs">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
 					<a href="?view=main"><img  class="logo" src="img/logo-food.png" alt="Логотип"></a>
 				</div>
-				<div class="col-md-6 horizontal-menu">
-					<ul>
+				<div class="col-md-6 horizontal-menu collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-left">
 						<li><a href="?view=offer" method="GET"
 						style="<?php 
 							$view = empty($_GET['view']) ? 'main' : $_GET['view'];

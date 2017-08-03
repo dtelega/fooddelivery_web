@@ -14,13 +14,13 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-3 menu-items">
+			<div class="col-md-3 col-xs-12 menu-items">
 				<a href="#" class="wow fadeInUp">Піца</a>
 				<a href="#" class="wow fadeInUp" data-wow-delay="0.1s">Суші та роли</a>
 				<a href="#" class="wow fadeInUp" data-wow-delay="0.2s">Десерти</a>
 				<a href="#" class="wow fadeInUp" data-wow-delay="0.3s">Паста</a>
 			</div>
-			<div class="col-md-9 text-center wow fadeIn" data-wow-delay="0.3s" style="padding:0;">
+			<div class="col-md-9 col-xs-12 text-center wow fadeIn" data-wow-delay="0.3s" style="padding:0;">
 				<div class="col-md-3 product-icon">
 					<div class="image">
 						<img src="img/menu/pizzas/pizza-menu-1.jpg" alt="Pizza">
